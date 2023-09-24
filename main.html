@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Christos Margadji</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+
+    body {
+      font-family: monospace, monospace;
+      width: 1000px;
+      margin: 0 auto; /* Center align the content horizontally */
+      background-color: darkgrey;
+    }
+
+    /* Add CSS styles for the banner */
+    #header {
+      background-color: #12003c;
+      padding: 10px;
+      text-align: center;
+      color: wheat;
+      height: 80px;
+    }
+
+    #footer {
+      background-color: #12003c;
+      padding: 10px;
+      text-align: center;
+      color: wheat;
+      height: 30px;
+    }
+
+    #header h1 {
+      margin: 0;
+    }
+    
+    #header a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #f5deb3;
+      font-size: 16px;
+    }
+    /* Add CSS styles for the sections */
+    section {
+      padding: px;
+      background-color: wheat;
+    }
+
+    .section-wrapper {
+      max-width: 800px;
+      margin: 0 auto; /* Optional: Center the section horizontally */
+      text-align: justify;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      padding:0x
+    }
+    
+    img.no-copy {
+      pointer-events: none;
+      padding: 0px;
+    }
+
+    section {
+      padding: 10px 10px; /* Adjust the padding as needed */
+    }
+
+    p.small {
+      font-size: 12px;
+      line-height: 110%;
+      padding: 0px;
+      margin: 0px;
+
+    }
+
+    #about_me {
+      display: grid;
+      grid-template-columns: 0.25fr 1fr; /* Two equal-width columns */
+      grid-gap: 10px; /* Adjust the gap between columns as needed */
+      padding: 10px;
+    }
+
+    #about_me h2 {
+      grid-column: 1 / span 2; /* Span the h2 across both columns */
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    .container {
+            display: flex;
+            border: 2px solid #000; /* Add a 2px solid black border */
+            margin-bottom: 5px;
+           }
+
+    .column1 {
+        margin: 1px;
+        flex: 1;
+        width: 20%; /* 1/5th of the width */
+    }
+
+    .column2 {
+        flex: 4;
+        width: 80%; /* 4/5ths of the width */
+        margin: 2px;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Christos Margadji (BEng, MSc)</h1>
+    <br>
+    <a href="#work">[Projects]</a>
+    <a href="#contact">[Contact]</a> 
+    <a href="https://twitter.com/MargadjiC" target="_blank">[Twitter]</a>
+    <a href="https://github.com/cemag1" target="_blank">[GitHub]</a>
+    <a href="https://www.ifm.eng.cam.ac.uk/research/complex-additive-materials/" target="_blank">[CAM Group]</a>
+    <br>
+
+  </div>
+
+    <!-- <section id="intro_fig">
+      <img src="main/small.png" alt="Description of the image" class="no-copy">
+
+    </section> -->
+
+  
+  <section id="about_me"> <h2>Bio</h2>
+
+      <div>
+        <img src="main/IMG_5729.JPEG" class="no-copy">
+        <p class="small"><b><i>Figure 2:</b> Graduation Day, Imperial College.</i> </p>
+      </div>
+
+      <div>
+          Hey! I am a PhD student at the University of Cambridge, working with the Computer-aided Manufacturing group of the Engineering Department. 
+          
+          Previously, I did my MSc in artificial intelligence at Imperial College London as well as a BEng in mechanical engineering at University of Birmingham.
+          
+          My research interest lies on fusing engineering and AI, to enable 'Learning 3D printers' capable of actively improving, through accurate understanding of their
+          own underlying principles and the notion of iteration. Migrating knowledge from one AM method is also a simple task for humans but currently impossible
+          for AI.
+          <br>
+          <br>
+          I had some friction with industry through a number of placements, including one with the Materials Science Division of Lawrence Livermore National Laboratory (LLNL) in California
+          and one with the Security Division of IBM in London.
+          <br>
+          <br>
+          During my academic journey I had the honour to receive a few awards:
+          <i> an EPSRC Scolarship award, an IMechE award, the Ellis, Linning, 
+            and Sandifer prize, and others.</i> 
+          <br>
+          <br>
+          You can see my full résumé <u>here</u>.
+      </div>
+    </section>
+
+  <section id="work">
+    <h2>Projects</h2>
+
+    <div class="container">
+      <div class="column1">
+          ena dio
+      </div>
+      <div class="column2">
+          <b>Iterative learning: enabling intelligent mass manufacturing with 3D printing</b>
+          <br>
+          <i>Christos Margadji, Douglas Brion, Sebastian Pattinson</i>
+          <br>
+
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="column1">
+          ena dio
+      </div>
+      <div class="column2">
+        <b>Physics-informer neural networks in additive manufacturing</b>
+        <br>
+        <i>Christos Margadji, Andrew Davison, Paul Hooper</i>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="column1">
+          ena dio
+      </div>
+      <div class="column2">
+        <b>Characterising nanoparticle emissions released during fused deposition modeling</b>
+        <br>
+        <i>Christos Margadji, Omid Doustdar, Jose Herreros, Athanasios Tsolakis</i>
+      </div>
+    </div>
+
+  </section> 
+     
+
+  <!--
+    <h3>(1/3) Foundation models for intelligent mass production in 3D printing</h3>
+      
+    
+    <div class="section-wrapper">
+    
+      <a><b>Supervisor:</b> <a href="https://www.sebastianpattinson.com/" target="_blank">[Dr. Sebastian Pattinson]</a>
+
+      <div class="center">
+      <p class="small"><br><img src="il_paper/Teaser-01.png" class="no-copy" width="800px"><br><b><i>Figure 3:</b> </i></p>
+      </div>
+    </div>
+
+
+<h3>(2/3) Physics-informed neural networks for modeling the laser-matter interraction of the L-PBF process.</h3>
+  <div class="section-wrapper">
+    <a><b>Supervisors: </b><a href="https://www.doc.ic.ac.uk/~ajd/" target="_blank">[Pr. Andrew Davison]</a>, <a href="https://www.imperial.ac.uk/people/paul.hooper" target="_blank">[Dr. Paul Hooper]</a></a>
+    </a>
+  </div>
+
+<div class="center">
+  <p class="small"><br><img src="pinn_paper/problem_form-01.png" class="no-copy" width="800px"><br><b><i>Figure 4:</b> </i></p>
+</div>
+
+</div>
+
+
+    <h3>(3/3) Characterising the nanoparticle emissions released during FDM printing.</h3>
+    <div class="section-wrapper">
+    <a><b>Supervisor:</b> <a href="https://www.birmingham.ac.uk/staff/profiles/mechanical/herreros-jose.aspx" target="_blank">[Dr. Herreros]</a></a>
+    
+</div>
+
+ -->
+
+<section id="contact">
+  <h2>Contact</h2>
+  You can reach me at cm2161(at)cam(dot)ac(dot)uk. Always down for a collaborations, in AI, AM and other engineering projects.
+</section>
+
+</section>
+<div id="footer">
+    
+  <a >&copy; 2023 Christos Margadji, www.margadji.com</a>
+
+</div>
+
+</body>
+</html>
